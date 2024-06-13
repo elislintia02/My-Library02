@@ -1,0 +1,138 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1"
+    <title></title>
+    <link rel="stylesheet"href="Ekternal.css">
+    <body>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            </style>
+
+        <!--loader-->
+        <div class="bg-loader">
+            <div class="loader"></div>
+        </div>
+        <div class="container">
+            <div class="container-navbar">
+                <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="index.html"clss= active "a-navbar">BERANDA</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="Audio & video.html" class="a-navbar">KOLEKSI</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="Anggota & Buku.html" clss="a-navbar">LAYANAN</a>
+                </li>
+                <li clss="li-navbar">
+                    <a href="perpusaja.html" class= "a-navbar">PERPUSTAKAAN </a>
+                </li>
+                <li clss="li-navbar">
+                    <a href="Modul.html" class= "a-navbar">MODUL</a>
+                </li>
+                </ul>
+        </div>
+            </div>
+
+
+<br>
+<br>
+<br>
+<form action="/submit_order" method="post">
+    <h4 style="color:black;background-color: white;background-size: cover;padding: 10px;">Form Pemesanan Buku</h4>
+    <p> Daftar Judul Buku yang tersedia :
+        <br><input type="checkbox"> Bibliometrik
+        <br><input type="checkbox"> Koala Kumala
+        <br><input type="checkbox"> Sebuah Seni Untuk Bersikap Bodo Amat
+        <br><input type="checkbox"> Filosofi Terasi</p>
+    <label for="Judul_Buku">Judul Buku:</label><br>
+    <input type="text" id="book_title" name="book_title" required=""><br>
+    <label for="Nama">Nama:</label><br>
+    <input type="text" id="Nama" name="Nama" required=""><br>
+    <label for="Email">Email:</label><br>
+    <input type="Email" id="Email" name="Email" required=""><br>
+    <label for="jumlah">Jumlah:</label>
+    <input type="number" id="jumlah" name="jumlah" min="1" required="">
+    <input type="submit" value="Order">
+  </form>
+<br>
+<br>
+<br>
+
+<form action="/submit_renewal" method="post">
+    <h4 style="color:black ;background-color: white;background-size: cover;padding: 10px;">Form Perpanjangan Peminjaman Buku</h4>
+    <label for="Judul_Buku">Judul Buku:</label><br>
+    <input type="text" id="Judul_Buku" name="Judul_Buku" required=""><br>
+    <label for="kode_buku">Kode Buku:</label><br>
+    <input type="text" id="kode_buku" name="kode_buku" required=""><br>
+    <label for="Nama_Peminjam">Nama Peminjam:</label><br>
+    <input type="text" id="Nama_Peminjam" name="Nama_Peminjam" required=""><br>
+    <label for="tanggal_perpanjangan">Tanggal perpanjangan</label><br>
+    <input type="date" id="Tanggal_perpanjangan" name="Tanggal_perpanjangan" required=""><br>
+    <label for="tanggal_kembali">Tanggal Kembali:</label><br>
+    <input type="date" id="tanggal_kembali" name="tanggal_kembali" required="">
+    <input type="Submit" value="Submit">
+  </form>
+<br>
+<br>
+<br> 
+<table border="1">
+    <tr>
+        <th>Formulir Anggota Perpustakaan Program Studi Perpustakaan</th>
+    </tr>
+    <tr>
+        <td> Nama : Elis Lintia Sipayung
+            <br>
+            <br> Nim : 210709007
+            <br>
+            <br> Alamat : Jl. Jamin Ginting, Padang Bulan, Medan
+            <br>
+            <br> Jenis Kelamin : Perempuan
+            <br>
+            <br> Email: elislintia@gmail.com
+            <br>
+            <br> No. Hp : 082370764325
+            <br>
+            <br> Tempat Lahir : Marubun Lokkung
+            <br>
+            <br> Tanggal Lahir : 02 September 2002
+        </td>
+    </tr>
+</table>
+
+<footer >
+    <div class="col-12 col-md-12 mt-5 " style="background:white;">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-3 mt-5">
+                  <h5>MY LIBRARY</h5>
+                  <p>2024 copyright-Elis &copy;</p>
+              </div>
+              <div class="col-12 col-md-3 mt-5">
+                  <h5>About</h5>
+                  <p>Tugas Pengembangan Web Perpustakaan Praktik</p>
+                  <p>Dosen Pengampu: Himma Dewiyana S.T.,M.Hum</p>
+                  <p>Oleh: 210709007 Elis Lintia Sipayung</p>
+              </div>
+              <div class="col-12 col-md-3 mt-5">
+                 <h5>Help</h5>
+                 <p>Contact Us 082374448588</p>
+                 <p>Helps</p>
+                 <p>Term and Conditions</p>
+                 <p>Privacy Policy</p>
+             </div>
+             <div class="col-12 col-md-3 mt-5">
+                 <h5>Network</h5>
+                 <p>MY LIBRARY</p>
+             </div>
+          </div>
+      </div>
+  </div>
+  </div>
+</body>
+</head>
+</html>
