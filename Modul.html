@@ -1,0 +1,220 @@
+<! DOCTYPE>
+<html>
+    <head>
+    <title>Javascript</title>
+    <link rel="stylesheet" href="Ekternal.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.Min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>table{width:100%;border-collapse:collapse}th,td{padding:8px;text-align:left;border-bottom:1px solid #ddd}tr:hover{background-color:azure}.highlight{background-color:black}body{background-color:powderblue}</style>
+    </head>
+    <body>
+        <!--loader-->
+        <div class="bg-loader">
+            <div class="loader"></div>
+        </div>
+        <div class="container">
+            <div class="container-navbar">
+                <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="index.html"clss= active "a-navbar">BERANDA</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="Audio & video.html" class="a-navbar">KOLEKSI</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="Anggota & Buku.html" clss="a-navbar">LAYANAN</a>
+                    </li>
+                <li clss="li-navbar">
+                    <a href="perpusaja.html" class= "a-navbar">PERPUSTAKAAN </a>
+                </li>
+                <li clss="li-navbar">
+                    <a href="Modul.html" class= "a-navbar">MODUL</a>
+                </li>
+                </ul>
+        </div>
+            </div>
+        <table id="library-table">
+    <thead>
+    <tr>
+    <th>Judul Buku</th>
+    <th>Penulis</th>
+    <th>Tahun Terbit</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Sebuah Seni Untuk Bersikap Bodo Amat</td>
+    <td>Mark Manson</td>
+    <td>2016</td>
+    </tr>
+    <tr>
+    <td>Koala Kumala</td>
+    <td>Radirya Dika</td>
+    <td>2016</td>
+    </tr>
+    <tr>
+    <td>Ramai Yang Dulu Kita Bawa Pergi</td>
+    <td>Suci Berliana</td>
+    <td>2022</td>
+    </tr>
+    <tr>
+    <td>Rentang Waktu</td>
+    <td>Farah Via</td>
+    <td>2018</td>
+    </tr>
+    <tr>
+    <td>Filosofi Teras</td>
+    <td>Henry Manampiring</td>
+    <td>2018</td>
+    </tr>
+    <tr>
+    <td>Terpikat</td>
+    <td>Ghefira Zakhira</td>
+    <td>2022</td>
+    </tr>
+    <tr>
+    <td>Gadis Minimarket</td>
+    <td>Sayaka Murata</td>
+    <td>2022</td>
+    </tr>
+    <tr>
+    <td>Negeri 5 Menara</td>
+    <td>Ahamd Fuadi</td>
+    <td>2021</td>
+    </tr>
+    <tr>
+    <td>Moon atau Bulan</td>
+    <td>Tere Liye</td>
+    <td>2021</td>
+    </tr>
+    <tr>
+    <td>Cantik Itu Luka</td>
+    <td>Eka Kurniawati</td>
+    <td>2021</td>
+    </tr>
+    <tr>
+    <td>Wingit</td>
+    <td>Sara Wijayanto</td>
+    <td>2021</td>
+    </tr>
+    <tr>
+    <td>Bumi </td>
+    <td>Tere Liye</td>
+    <td>2022</td>
+    </tr>
+    <tr>
+    <td>Hujan</td>
+    <td>Tere Liye</td>
+    <td>2022</td>
+    </tr>
+    </tbody>
+    </table>
+    <script>$(document).ready(function(){$("#library-table").DataTable({paging:false,searching:true,ordering:true});$("tr").mouseover(function(){$(this).addClass("highlight");});$("tr").mouseout(function(){$(this).removeClass("highlight");});$("th").addClass("animate_animated animate_bounce");});</script>
+    
+        <h1>Belajar PHP Ujian</h1>
+        <ul>
+            <!--?php
+            for ($i = 1; $i <= 1000; $i++) {
+                <li-->
+                <li>Ini adalah hari ke: 1 = UJIAN</li>
+                <li>Ini adalah hari ke: 2 = UJIAN</li>
+                <li>Ini adalah hari ke: 3 = UJIAN</li>
+                <li>Ini adalah hari ke: 4 = UJIAN</li>
+                <li>Ini adalah hari ke: 5 = UJIAN</li>
+                <li>Ini adalah hari ke: 6 = UJIAN</li>
+                <li>Ini adalah hari ke: 7 = UJIAN</li>
+                <li>Ini adalah hari ke: 8 = UJIAN</li>
+                <li>Ini adalah hari ke: 9 = UJIAN</li>
+                <li>Ini adalah hari ke: 10 = UJIAN</li>
+        </li></ul>
+
+        <br>
+        <br>
+    <title>Modul 7.2 My First Form</title>
+    <form action="tuj uan. php" method="post">
+    <center>
+    <table border="1 pt" bgcolor="green">
+    <tbody><tr>
+    <td><font face="verdana" pt"="">Username</font></td>
+    <td><input type="text" name="nama"></td>
+    </tr>
+    <tr>
+    <td><font face="verdana" size="2
+    pt">Email</font></td>
+    <td><input type="text" name="email"></td>
+    </tr>
+    <tr>
+    <td><font face="verdana" size="2
+    pt">Password</font></td>
+    <td><input type="password" name="pass"></td>
+    </tr><tr>
+    <td>
+    <input type="submit" name="
+    
+    value=" simpan"="">
+     <input type="reset" name="" "hapus"="" value="Hapus">
+    </td>
+    </tr>
+    </tbody></table>
+    </center>
+    </form>
+    <br>
+    <br>
+
+    <title>Modul 7.3,4 Login</title>
+    <table border-i="" cell="" padding="5">
+    </table>
+    <form action="tujuan.php" method="post">
+    <table cellpadding="5">
+    <tbody><tr> <td>NIM</td><td>:<input type="text" name="nim"></td> </tr> <tr> <td>Nama</td><td>: <input type="text" name="alamat"></td>
+    </tr>
+    <tr> <td>Alamat</td><td>: <input type="text" name="alamat"></td>
+    </tr>
+    <tr> <td colspan="2" align="right"><input type="submit" value="Tambah"></td> </tr>
+    </tbody></table>
+    </form>
+    <br>
+    <br>
+    
+    LOGIN
+    <form method="post" action="aksı_login.php">
+    <input class="masuk" type="text" autocomplete="off" placeholder="" "your="" name"="" name="username" autofocus="" required=""><br>
+    <input class="masuk" type="password" autocomplete="off" placeholder="Your Password" name="password" required=""><br>
+    <input id="tombol" type="submit" value="Login">
+    </form>
+    <br>
+    <br>
+    
+    <footer >
+        <div class="col-12 col-md-12 mt-5 " style="background:white;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-3 mt-5">
+                      <h5>MY LIBRARY</h5>
+                      <p>2024 copyright-Elis &copy;</p>
+                  </div>
+                  <div class="col-12 col-md-3 mt-5">
+                      <h5>About</h5>
+                      <p>Tugas Pengembangan Web Perpustakaan Praktik</p>
+                      <p>Dosen Pengampu: Himma Dewiyana S.T.,M.Hum</p>
+                      <p>Oleh: 210709007 Elis Lintia Sipayung</p>
+                  </div>
+                  <div class="col-12 col-md-3 mt-5">
+                     <h5>Help</h5>
+                     <p>Contact Us 082374448588</p>
+                     <p>Helps</p>
+                     <p>Term and Conditions</p>
+                     <p>Privacy Policy</p>
+                 </div>
+                 <div class="col-12 col-md-3 mt-5">
+                     <h5>Network</h5>
+                     <p>MY LIBRARY</p>
+                 </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <br>
+    </body></html>
